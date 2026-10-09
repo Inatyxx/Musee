@@ -12,7 +12,7 @@ public class Musee {
                 '}';
     }
 
-    String getNom() {
+    public String getNom() {
         return this.nom;
     }
 }
