@@ -5,14 +5,14 @@ public class Musee {
         this.nom = nom;
     }
 
+    public String getNom() {
+        return this.nom;
+    }
+
     @Override
     public String toString() {
         return "Musee{" +
                 "nom='" + nom + '\'' +
                 '}';
-    }
-
-    public String getNom() {
-        return this.nom;
     }
 }
